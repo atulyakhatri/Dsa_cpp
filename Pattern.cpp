@@ -3,8 +3,9 @@ using namespace std;
 
 int main(){
     int row, col;
-
-        cin>>row>>col;
+    
+    cout<<"Enter two numbers with space in between\n";
+    cin>>row>>col;
 
     for (int i = 1; i <= row; i++){
         for (int j = 1; j <= col; j++){
